@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: client-1
+
+  cloud:
+    config:
+      uri: http://localhost:8000
+      fail-fast: false
+  profiles:
+    active: dev
+
+server:
+  port: 8080
+
+#management:
+#  endpoint:
+#    web:
+#      exposure:
+#        include: *
