@@ -17,3 +17,6 @@ server:
 #    web:
 #      exposure:
 #        include: *
+
+#This specifies that even the config server is down, the app will start(It won't fail).
+#spring.cloud.config.fail-fast: false
